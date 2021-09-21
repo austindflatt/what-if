@@ -11,27 +11,27 @@ const neptune = 1.23;
 
 if (planetNumber === 1) {
     const weight = earthWeight * venus;
-    console.log('Your weight on this venus is', weight)
+    console.log('Your weight on venus is', weight)
 }
 else if (planetNumber === 2) {
     const weight = earthWeight * mars;
-    console.log('Your weight on this mars is', weight)
+    console.log('Your weight on mars is', weight)
 }
 else if (planetNumber === 3) {
     const weight = earthWeight * jupiter;
-    console.log('Your weight on this jupiter is', weight)
+    console.log('Your weight on jupiter is', weight)
 }
 else if (planetNumber === 4) {
     const weight = earthWeight * saturn;
-    console.log('Your weight on this saturn is', weight)
+    console.log('Your weight on saturn is', weight)
 }
 else if (planetNumber === 5) {
     const weight = earthWeight * uranus;
-    console.log('Your weight on this uranus is', weight)
+    console.log('Your weight on uranus is', weight)
 }
 else if (planetNumber === 6) {
     const weight = earthWeight * neptune;
-    console.log('Your weight on this neptune is', weight)
+    console.log('Your weight on neptune is', weight)
 }
 else {
     console.log("error, not a planet")
